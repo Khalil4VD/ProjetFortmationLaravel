@@ -1,0 +1,202 @@
+---
+title: "Rapport Projet"
+
+
+subtitle: "Gestion de projet"
+
+
+author:
+  
+  MAKHLOUFI Khalil
+  
+  
+  VITOFFODJI Adjimon
+  
+  
+  CHIRANE Rania
+  
+  
+  MARTIN Samuel
+  
+  
+  GONZALEZ Emmanuel
+
+date: "24 novembre 2023"
+output: 
+  pdf_document:
+    toc: true
+    number_sections: true
+    fig_caption: true
+    latex_engine: pdflatex
+fontsize: 12pt
+---
+
+
+\newpage
+
+\section{Introduction}
+
+\bigskip
+
+Pendant cette aventure dans le monde passionnant du football, plusieurs étapes importantes ont été mis en place. Tout d'abord, nous avons cherché des données importantes, puis les avons modéliser pour montrer comment tout est relié dans notre base de données. Cela a donner une base solide pour montrer comment notre solution est organisée.
+
+Au début de ce programme, nous avons cherché des données solides en lien avec notre thème du football, cela correspondait à la base de tout ce projet. Ensuite, on a fait un schéma, montrant comment notre application marcherait et comment tout serait relié. Ça a montré la structure compliquée derrière notre solution.
+
+Les maquettes que nous avons développées ont été le fruit d'une réflexion approfondie, mettant en lumière l'interface et les fonctionnalités clés de notre système. De là, nous avons établi un canevas, définissant avec précision notre solution dans son ensemble, ses objectifs et les moyens de les atteindre.
+
+Enfin, notre travail a été rythmé par un diagramme de Gantt, une feuille de route temporelle illustrant les différentes étapes du projet et leur chronologie.
+
+Dans ce rapport final, nous mettrons en avant ces diverses étapes, en détaillant comment chacune a contribué à la constitution d'une solution révolutionnaire pour appréhender les performances des footballeurs professionnels sur plusieurs saisons. Chaque étape a été une tâche à ne pas négliger pour la suite, façonnant une vision novatrice et précise de ce monde captivant du football.
+
+\bigskip
+
+\centering
+
+**Comment ces étapes clés de collecte, modélisation et conceptualisation des données peuvent-elles révolutionner l'analyse des performances des joueurs sur plusieurs saisons?
+**
+
+\bigskip
+
+\newpage
+
+\begin{flushleft}
+
+\section{Objectif, intérets, outils}
+
+\subsection{Objectif de l'étude}
+
+Objectif général :
+Cette étude vise à offrir une visualisation claire des performances des footballeurs sur plusieurs saisons, mettant en lumière le nombre de buts inscrits au sein des ligues officielles.
+
+Objectifs spécifiques :
+
+- Identifier les joueurs les plus performants, offrant ainsi aux recruteurs une référence pour renforcer leurs équipes.
+- Fournir aux spectateurs une vision des joueurs les plus performants dans chaque championnat majeur.
+- Permettre une comparaison précise des performances des joueurs entre eux.
+
+Ces objectifs spécifiques visent à répondre aux besoins des passionés du football, des recruteurs, des spectateurs et de tout individu souhaitant évaluer et comprendre les performances des footballeurs professionnels sur plusieurs saisons.
+
+\subsection{Intérêt de létude}
+
+L'importance de cette étude réside dans plusieurs aspects cruciaux. Le football, souvent considéré comme le sport le plus populaire au monde, suscite un engouement mondial sans précédent. Il agit comme un catalyseur social, réunissant les individus au-delà des frontières socio-politiques et culturelles. Comprendre l'évolution des performances des joueurs, en constante progression, revêt une grande importance pour les dirigeants de clubs de football. Cela guide leur politique de renforcement d'équipe, visant à attirer les joueurs les plus performants pour garantir la compétitivité de leur équipe.
+
+De plus, pour les passionnés de paris sportifs et les amateurs du sport, ces données statistiques offrent une vision éclairée. Elles permettent de déterminer les joueurs les plus efficaces, d'anticiper leurs futures performances et de comparer objectivement les différents joueurs entre eux. Ces informations deviennent ainsi un outil précieux pour évaluer, prédire et analyser les performances des joueurs, offrant une perspective éclairée pour les amateurs de football et les acteurs du milieu sportif.
+
+\subsection{Logiciels, outils utilisé}
+
+Au cours de ce projet centrée sur le football, une multitude d'outils logiciels spécialisés a été sollicitée pour structurer notre progression. Parmi ces outils, Figma nous a aider pour la création et la visualisation détaillée des maquettes. Ce logiciel a permis une représentation visuelle claire des différentes interfaces et fonctionnalités clés du système, offrant ainsi une vision concrète de notre solution.
+
+D'autre part, l'utilisation de Mocodo a grandement facilité la modélisation conceptuelle des données. Cet outil a permis de visualiser de manière claire et structurée les schémas de données et leurs relations, offrant ainsi une représentation graphique de l'architecture sous-jacente de notre solution. En parallèle, l'utilisation de PhpMyAdmin a été fondamentale dans la gestion efficace des bases de données MySQL. Cette interface web a facilité la manipulation sécurisée des données, contribuant ainsi à l'intégrité et à la fiabilité de notre fondement informatique.
+
+Ensuite, nous retrouvons évidemment RMarkdown, un outil polyvalent pour la création de documents combinant du texte narratif et des analyses de données. Cette flexibilité a été précieuse pour la génération de rapports et présentation complets et informatifs.
+
+Le recours à Gantt a été essentiel pour établir et suivre le planning du projet. Cette chronologie a été cruciale pour organiser et coordonner les différentes phases du projet dans le temps. Par ailleurs, pour être au courant de chaque réalisation des tâches, GitHub a été le pivot central pour la gestion collaborative des éléments du projets. Enfin, l'utilisation du terminal a été constante pour exécuter des commandes et superviser les aspects techniques du projet. Cet outil a été indispensable pour la manipulation directe et la gestion efficace des diverses tâches techniques (comme pour manipluer git).
+
+\section{Exposition et explications des tâches accomplies}
+
+\subsection{Initialisation à Git}
+Pour mener à bien notre projet collectif, Git est devenu un pilier indispensable. Cette plateforme de contrôle de version a été notre priorité absolue, assurant une collaboration fluide et efficace entre tous les membres pour éviter tout retard. En amorçant notre projet avec Git, nous avons établi une structure robuste pour suivre de près l'évolution de nos travaux. Cette démarche nous a conduits à maîtriser les commandes du terminal, notamment celles liées à Git, renforçant ainsi notre aptitude à manipuler et à suivre notre progression via ces outils. Grâce à cette approche solide, chaque contributeur a pu se concentrer sur des tâches spécifiques tout en préservant l'intégrité de notre espace de travail partagé. Cette méthode a consolidé la cohérence de nos efforts de développement, renforçant ainsi la collaboration et la sécurité de l'ensemble du projet.
+\bigskip
+
+\newpage
+
+\subsection{Recherche des données}
+
+\subsubsection{Sources des données}
+
+Les données utilisées pour cette étude ont été recueillies sur Internet, sous des licences libres et exploitables. Il est important de souligner que nous ne sommes pas les créateurs originaux de ces données. Par conséquent, afin de permettre à d'autres utilisateurs de consulter ou d'utiliser ces données pour leurs propres travaux, nous fournirons une bibliographie détaillée, indiquant précisément les différentes sources de ces données.
+
+Ces données spécifiques ont été extraites de la source suivante : 
+
+« https://www.kaggle.com/datasets/mohamedhanyyy/top-football-leagues-scorers ».
+
+Cette ressource a été consultée pour obtenir des informations relatives aux meilleurs buteurs dans les ligues de football, constituant ainsi une part importante de notre corpus de données.
+
+\subsubsection{Modifications apportées à ces données}
+
+Les données analysées initialement comprenaient, en plus des cinq principaux championnats d'Europe, celles du Brésil, du Portugal, des Pays-Bas et des États-Unis. Cependant, pour concentrer notre étude sur des informations plus pertinentes, nous avons pris la décision de les exclure de notre analyse.
+
+Par ailleurs, le championnat français a été uniformisé sous le nom de « Ligue 1 » pour tous les joueurs ayant évolué en France pendant les saisons correspondantes. Cette démarche visait à assurer une désignation cohérente de ce championnat.
+
+Dans notre processus de nettoyage de données, certaines colonnes telles que « Avg », « Avg match », « Shot Per Avg Match » et « On target Per Avg Match » ont été supprimées de notre ensemble de données. Ces variables ont été exclues de notre analyse statistique car elles ne contribuaient pas de manière significative à nos évaluations.
+
+Pour enrichir notre analyse et mieux évaluer l'impact des joueurs sur le terrain, de nouvelles colonnes ont été ajoutées. Notamment, le ratio de buts par match a été intégré pour fournir une perspective plus précise sur les performances des joueurs. De plus, nous avons appliqué un critère de sélection en retirant tous les joueurs n'ayant pas disputé au moins 20 matchs. Cette approche garantit la pertinence des ratios calculés en excluant les performances de joueurs ayant eu une influence limitée en raison d'un faible nombre de matchs disputés.
+
+Enfin, en ce qui concerne la structure des données, plusieurs variables d'identification ont été créées et ajoutées à la base. Cette démarche visait à améliorer la manipulation des données en les rendant plus aisément identifiables et classifiables.
+\bigskip
+
+\newpage
+
+\subsection{Analyse des scénarios d'utilisation}
+
+Le diagramme montre les différentes étapes que les utilisateurs peuvent suivre pour naviguer sur notre site Web.
+
+Le diagramme comporte deux branches principales :
+
+- Un mode invité : Un utilisateur qui n'est pas encore inscrit sur le site.
+- Un mode utilisateur inscrit : Un utilisateur qui est inscrit sur le site.
+
+L’utilisateur non inscrit peut seulement avoir aux accès statistiques de la base de donnée :
+ 
+- Accès aux statistiques : L’utilisateur va pouvoir choisir les filtres pour trier à partir des tables de la base de données les informations qu’il va vouloir consulter ( un championnat , une équipe , une année particulière ). Il peut aussi exporter les données sous le format qu’il souhaite (.csv, .xml, .json, …).
+
+- S’inscrire : Un utilisateur invité peut se créer un compte sur le site web. 
+
+Une fois Inscrit, l’utilisateur peut se connecter au site web, ce qui lui donne accès a toutes les fonctionnalités du site web :
+		
+- Consulter son profil : Sur l’onglet profil, l’utilisateur pourra renseigner ses informations personnelles (biographie, équipe préféré, âge, pseudo). On trouve aussi un sous-menu favori où l’utilisateur pour retrouver ses joueurs favoris et retrouvées ainsi facilement ses données statistiques.
+
+- Messagerie : Un accès au forum et à la messagerie du site pour discuter avec les autres utilisateurs inscrits du site.
+
+- Examiner les prédictions : L’algorithme de prédiction du site montre les performances que les joueurs pourraient réaliser les saisons futures. Cet onglet montre des graphiques statistiques de prédictions, ces résultats sont mis à jour à chaque ajout de données dans la base de donnée.
+
+- Ajouter des données : L’utilisateur inscrit a la possibilité d’alimenter la base de donnée lui-même. Il peut ajouter des statistiques de joueurs dans la base de donnée. Ces nouvelles lignes ajoutées sont avant d’être ajouter définitivement vérifier par les administrateurs du site. Nous avons cependant la volonté de nous approcher du système de wikipédia dans la vérification des informations avec un système de vérification par les autres utilisateurs. Les utilisateurs peuvent valider ou invalider les donnes rentrées dans la base de donnée, mais le dernier mot revient à l’administrateur.
+
+- Quitter le site/ se déconnecter : la déconnexion renseigne aux autres contacts que l’utilisateur n’est plus en ligne. Elle permet à l’utilisateur invité de supprimer ses informations de sessions.
+
+
+L'utilisateur quitte le site Web. Le site Web déconnecte l'utilisateur et supprime ses informations de session. Ce diagramme des cas d'utilisation est un outil utile pour comprendre les fonctionnalités d'un site Web de paris sportifs. Il peut être utilisé pour aider à concevoir le site Web et à identifier les besoins des utilisateurs.
+
+
+\subsection{Conception visuelle du système}
+
+Après avoir exploré divers scénarios d'utilisation, nous avons rapidement procédé à la phase de conception visuelle de notre système. En utilisant l'outil Figma disponible sur www.figma.com, nous avons élaboré la maquette de notre site web qui, forcément, aura une faible probabilité de ressembler à la version finale. Initialement conçu pour les téléphones portables, nous avons ultérieurement choisi de privilégier la clarté en adaptant le design pour une visualisation sur ordinateur portable. 
+
+La création complète du design fut l'un des piliers de ce projet. Nous avons débuté par la visualisation du design pour les smartphones, mais avons rapidement opté pour une version destinée aux ordinateurs portables afin d'assurer une meilleure lisibilité et une expérience utilisateur optimale. Une fois les 19 frames de notre site conçues, nous avons entamé l'étape cruciale de la connexion entre ces éléments pour assurer une navigation fluide. Cela impliquait de créer des relations entre les différentes frames, un processus essentiel pour simuler l'expérience interactive du site.
+
+
+\subsection{Élaboration des objectifs et stratégies}
+
+L'élaboration des objectifs et des stratégies pour la création d'une plateforme web dédiée à l'analyse détaillée des performances des attaquants de football entre 2016 et 2020 demande une approche rigoureuse, solide et structurée. Les objectifs majeurs englobent la définition claire du résultat global attendu, l'établissement d'une communauté interactive autour de la plateforme et la garantie d'une expérience utilisateur fluide et compréhensible . Pour atteindre ces objectifs, différentes stratégies ont été élaborées. Elles vont de la collecte et la préparation des données grâce à des outils comme Kaggle à la gestion collaborative du projet via des dépôts GIT, en passant par la conception détaillée de la base de données, la modélisation du site et la création de maquettes visuelles pour sa structure. La mise en place d'un canevas est également prévue pour clarifier l'utilité de la solution. Enfin, le développement du site, son lancement, les tests et la collaboration avec les utilisateurs finaux viennent compléter cette stratégie ambitieuse et holistique.
+
+\newpage
+
+\subsection{Organisation temporelle du projet}
+
+L'avancée du projet s'étale sur plusieurs semaines, chacune dédiée à des étapes spécifiques pour assurer une progression méthodique et efficace. Les deux premières semaines se concentrent sur la recherche du thème de l'étude, la modification du jeu de données et la création d'un lien GitHub pour faciliter la collaboration. La troisième semaine étais dédiée à l'élaboration d'un schéma UML et de la modélisation des données pour la conception du site.
+
+Les semaines 4 et 5 étaient consacrées à la concrétisation des maquettes visuelles, tandis que la sixième semaine étais réservée à l'élaboration d'un canevas pour clarifier les objectifs et l'utilité de la solution, puis à la réalisation d'un diagramme de Gantt pour mieux visualiser les tâches à venir.
+
+Le début du second semestre du projet démarre avec la création de l'interface utilisateur en HTML et CSS, suivie par la mise en place de la logique du site en PHP. Par la suite se mettra en place la planification de la sécurité pour protéger les données sensibles, et la tâche dédiée à l'importation et à l'intégration des données des attaquants dans la base de données du site.
+
+Enfin nous nous attaquerons aux tests et au débogage pour garantir le bon fonctionnement du site et à la création du contenu pertinent sur les attaquants. Les dernières étapes seront consacrées aux ultimes vérifications et au lancement effectif du site, marquant ainsi la finalisation et la mise en ligne officielle de la plateforme.
+
+\subsection{Phase initiale du développement logiciel}
+
+Notre démarche dans la conception du site a été poussée encore plus loin, visant à créer une interface authentique à l'aide de HTML et CSS. L'utilisation judicieuse de fonds d'images, de styles et d'une structure adaptée a permis de concrétiser cette vision. Pour renforcer la fonctionnalité, l'intégration du PHP a été primordiale, permettant la mise en place de divers formulaires tels que ceux de connexion et d'inscription. Cette intégration assure un transfert sécurisé des données utilisateur vers la base de données.
+
+Cette approche a été soutenue par la création de sessions, assurant une interaction fluide et sécurisée pour chaque utilisateur pendant sa navigation sur le site. Cependant, ceci ne représente que les premières étapes de la création du site. Nous envisageons d'intégrer des éléments essentiels, notamment des graphiques, des statistiques, et des descriptions de joueurs à travers des pages PHP dynamiques. Nous avons également pour objectif de mettre en place un système de messagerie, de profils, et même des prédictions basées sur les parcours d'anciennes légendes du football.
+
+Nous prévoyons également de permettre aux utilisateurs d'ajouter des joueurs à la base de données, soumis à une validation par les responsables du site, ainsi que de mettre en place un système de comparaison entre joueurs. Nous sommes conscients que de nouvelles idées pourraient émerger au fil du temps, et nous sommes prêts à les intégrer pour améliorer continuellement l'expérience offerte par notre site.
+
+\newpage
+
+\section{Difficultés rencontrés}
+
+Les difficultés rencontrées ont été variées tout au long du projet. Tout d'abord, la recherche et l'adaptation du jeu de données ont posé des défis, nécessitant du temps et des modifications pour correspondre au maximum aux besoins du projet. Ensuite, la partie Git a également étais un obstacle, surtout dans la liaison entre le dépôt local et distant (sur mac). De plus, s'inspirer des maquettes pour la conception du site a été une tâche ardue, nécessitant une créativité spécifique pour aligner les idées préliminaires avec les concepts visuels. Enfin, la projection sur le second semestre du projet a été difficile, une vision claire des étapes à venir et une planification détaillée pour assurer la cohérence et l'avancement du travail. Ces défis ont représenté des moments d'apprentissage essentiels et ont finalement contribué à renforcer notre compréhension et notre capacité à surmonter les obstacles rencontrés. 
+
+\section{Conclusion}
+
+En conclusion, ce rapport reflète les étapes essentiels franchis dans notre gestion de projet pour la création du site. Les diverses étapes accomplies démontrent notre engagement à réaliser cette entreprise de manière méthodique et structurée. D'autre part, la conception initiale du site a été lancée avec succès, intégrant des aspects cruciaux tels que l'interface utilisateur, la sécurité des données via l'utilisation de PHP et la mise en place de sessions pour assurer une expérience fluide pour les utilisateurs. Cependant, il est important de noter que ces étapes ne représentent qu'une fraction du potentiel que nous visons à atteindre.
+
+\end{flushleft}

@@ -1,0 +1,203 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={EXPLORATION APPROFONDIE DES PERFORMANCES STATISTIQUES DES JOUEURS DE FOOTBALL PROFESSIONNEL : VERS UNE NOUVELLE VISION DU TALENT},
+  pdfauthor={MAKHLOUFI Khalil,; CHIRANE Rania,; MARTIN Samuel,; GONZALEZ Emmanuel,; VITOFFODJI Adjimon.},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{EXPLORATION APPROFONDIE DES PERFORMANCES STATISTIQUES DES JOUEURS
+DE FOOTBALL PROFESSIONNEL : VERS UNE NOUVELLE VISION DU TALENT}
+\author{MAKHLOUFI Khalil, \and CHIRANE Rania, \and MARTIN
+Samuel, \and GONZALEZ Emmanuel, \and VITOFFODJI Adjimon.}
+\date{24/11/2023}
+
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table des matières}
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\textbf{Introduction }
+
+\bigskip
+
+Au cœur de l'ébullition du monde du football, ce rapport de base de
+données représente une étape cruciale dans la réalisation d'un projet
+novateur. Notre objectif principal est de démystifier les performances
+des footballeurs professionnels sur plusieurs saisons, redéfinissant
+ainsi les critères d'excellence et offrant une perspective inédite aux
+passionnés de ce sport.
+
+Cette base de données est conçue pour être bien plus qu'un simple
+entrepôt d'informations. Elle aspire à devenir un espace d'exploration
+pour les néophytes, une mine de talents pour les recruteurs et une
+source d'engagement pour les spectateurs. En unissant ces aspects, elle
+devient une passerelle permettant une expérience enrichissante et
+accessible à tous.
+
+La centralité de cette base de données réside dans sa capacité à mettre
+en lumière les performances individuelles des joueurs. Elle ouvre ainsi
+de nouvelles perspectives pour le recrutement, érigeant une toile
+dynamique où chaque statistique compte.
+
+Dans ce rapport, nous plongerons dans la manière dont cette base de
+données révolutionnaire est conçue, organisée et maintenue pour répondre
+aux besoins croissants des utilisateurs. Nous détaillerons également
+comment elle redéfinit la manière dont le talent est perçu et compris
+dans le monde du football, offrant une perspective unique grâce à
+l'analyse précise des données.
+
+Cette introduction pose les bases de notre exploration, où les chiffres
+prennent vie et où chaque aspect de la performance des joueurs est mis
+en avant. Nous allons examiner en détail comment cette base de données
+éclaire d'une lumière nouvelle le paysage du football professionnel,
+offrant une vision détaillée et informée des compétences et des
+réussites des acteurs de ce sport captivant.
+
+\bigskip
+
+\centering
+
+\textbf{De quelle manière les données des performance des footballeurs
+sur des saisons multiples peuvent-elles être exploitées pour améliorer
+le processus de recrutement, offrir une information pertinente aux
+spectateurs et ériger des comparaisons significatives entre joueurs au
+sein du football professionnel? }
+
+\bigskip
+
+\hypertarget{objectif-pruxe9paration-outils}{%
+\section{Objectif, préparation,
+outils}\label{objectif-pruxe9paration-outils}}
+
+\hypertarget{objectif-de-luxe9tude}{%
+\subsection{Objectif de l'étude}\label{objectif-de-luxe9tude}}
+
+\bigskip
+\begin{flushleft}
+Le rôle de la base de données dans notre projet est fondamental pour atteindre notre objectif principal : concevoir une plateforme novatrice axée sur l'analyse approfondie des performances des joueurs de football. Cette base de données constitue le socle de notre plateforme, offrant aux utilisateurs la possibilité de comparer minutieusement ces performances à l'aide de statistiques détaillées.
+
+En établissant des fonctionnalités telles que l'intégration de nouveaux joueurs, la gestion des favoris et l'invitation d'autres passionnés, notre but est de créer une communauté active et engagée. Cette plateforme vise à rassembler les passionnés de football, leur permettant d'explorer, d'évaluer et de discuter des performances de leurs joueurs préférés dans un environnement interactif et collaboratif. La base de données joue ainsi un rôle central en fournissant les données pertinentes et actualisées qui alimentent cette expérience immersive pour les utilisateurs.
+\end{flushleft}
+
+\hypertarget{pruxe9-traitement}{%
+\subsection{Pré-traitement}\label{pruxe9-traitement}}
+
+\bigskip
+
+\begin{flushleft}
+Dans le processus de prétraitement des données, plusieurs lignes ont été supprimées afin de rationaliser notre ensemble de données. Les données des championnats situés au Brésil, au Portugal, aux Pays-Bas et aux États-Unis ont été exclues de notre analyse.
+
+En ce qui concerne les modifications apportées aux données, le nom du championnat français a été uniformisé pour tous les joueurs, étant désigné désormais sous l'appellation "Ligue 1" pour ceux ayant évolué en France.
+
+De plus, certaines colonnes ont été supprimées de l'ensemble de données, notamment les données contenues dans les colonnes Avg, Avg match. Ces suppressions ont été effectuées car ces données ne contribuaient pas significativement à notre analyse.
+
+En parallèle, une nouvelle colonne a été introduite : le ratio de buts par match. Cette mesure vise à évaluer l'impact d'un joueur sur le terrain. Plus le ratio se rapproche de 1, plus le joueur a marqué fréquemment, tandis qu'une valeur proche de 0 indique une performance moindre en termes de buts marqués par match. De plus, les attributs âge et nationalité ont été aussi ajouter pour offrir une possibiltés en plus au utilisateurs de leurs proposer des graphes.
+
+Il convient de noter également qu'une sélection a été opérée, éliminant les joueurs ayant disputé moins de 20 matchs. Cette décision a été prise pour garantir la pertinence des ratios calculés, évitant ainsi les distorsions pouvant survenir lorsque le nombre de matchs est insuffisant pour évaluer de manière significative les performances d'un joueur. 
+
+Enfin, pour consolider notre base de données, nous avons introduit des identifiants uniques pour chaque entité principale. Ces identifiants garantissent une structure robuste en facilitant les requêtes spécifiques et les relations entre les différentes entités. Ils renforcent la cohérence des données et simplifient la gestion des interactions au sein de la base de données. Ces identifiants uniques servent de pierre angulaire pour des requêtes précises et une navigation fluide, assurant ainsi une expérience utilisateur optimale dans la suite du projet.
+\end{flushleft}
+
+\hypertarget{logicieles-outils}{%
+\subsection{Logicieles, outils}\label{logicieles-outils}}
+
+\bigskip
+
+\begin{flushleft}
+Dans la réalisation de ce projet, nous avons utilisé le logiel excel(2016) pour constituer nos différentes tables. Ensuite nous avons importer ces tables sous format csv dans le logiciel sql PhpMyAdmin à l'aide de la version gratuite du logiciel WAMP pour certain afin de relier à travers les clés primaires et étrangère, les différentes tables.  
+
+Pour la réalisation du MCD, nous nous sommes aidés de Mocodo.fr et pour representer chaque type des données, nous avons créer un mcd sur Phpmyadmin.
+
+Pour la rédaction de ce rapport, nous avons utiliser la version 28-1-2 du  logicile Rstudio sous Mac à l'aide de R Markdown pour génerer directement notre document en format pdf. 
+\end{flushleft}
+
+\#Structure et éléments clés des données
+
+\hypertarget{moduxe8le-conceptuel-de-donnuxe9es-mcd---description-duxe9nuxe9rale}{%
+\subsection{Modèle conceptuel de données (MCD) - description
+dénérale}\label{moduxe8le-conceptuel-de-donnuxe9es-mcd---description-duxe9nuxe9rale}}
+
+\begin{flushleft}
+Cette première partie présente une vue d'ensemble du MCD. Elle explique les concepts fondamentaux, les entités principales et les relations clés au sein de la base de données.
+\end{flushleft}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{chemin/vers/votre/image.png}
+    \caption{Description de votre MCD}
+    \label{fig:mcd}
+\end{figure}
+
+\hypertarget{uxe9luxe9ments-cluxe9s-du-moduxe8le-conceptuel-des-donnuxe9es}{%
+\subsection{Éléments clés du modèle conceptuel des
+données}\label{uxe9luxe9ments-cluxe9s-du-moduxe8le-conceptuel-des-donnuxe9es}}
+
+\begin{flushleft}
+La seconde partie se concentre sur les éléments spécifiques du MCD. Elle détaille les entités, leurs attributs et les associations entre elles. Cette section met en lumière la façon dont le MCD représente précisément la structure des données pour répondre aux besoins du projet.
+\end{flushleft}
+
+\end{document}
