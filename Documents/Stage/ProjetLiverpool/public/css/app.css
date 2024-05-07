@@ -1,0 +1,133 @@
+body{
+    background-color: linear-gradient(to right, white, red);
+}
+
+h1 {
+    color: #c8102e;
+    margin-left: 20px; /* Rouge de Liverpool */ /* Ajustez cette valeur selon vos besoins */
+}
+
+
+input[name="title"] {
+    border: 2px solid black;
+}
+
+
+textarea[name="description"] {
+    border: 2px solid black;
+}
+
+.navbar {
+    position: absolute;
+    top: 20px; /* Ajustez cette valeur pour le placer à la hauteur souhaitée */
+    right: 20px; /* Ajustez cette valeur pour le placer à la droite souhaitée */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin-bottom: 10px; /* Espace entre chaque élément */
+}
+
+.navbar li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #c8102e; /* Rouge de Liverpool */
+    border-radius: 5px;
+}
+
+.navbar li a:hover {
+    background-color: #dd1926; /* Rouge plus foncé au survol */
+}
+
+
+/* Styles généraux du formulaire */
+form {
+    max-width: 600px;
+    background-color: #ffffff; /* Blanc */
+    border-radius: 10px;
+}
+
+/* Styles des étiquettes */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #c8102e; /* Rouge de Liverpool */
+}
+
+/* Styles des champs de saisie */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #c8102e; /* Bordure rouge */
+    border-radius: 5px;
+}
+
+/* Styles du bouton */
+button {
+    background-color: #c8102e; /* Rouge de Liverpool */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #dd1926; /* Rouge plus foncé au survol */
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 150px 20%;
+    padding: 20px;
+    background-color: #ffffff; /* Blanc */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+p {
+    color: #333; /* Couleur de texte normale */
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: #c8102e; /* Rouge de Liverpool pour les informations de contact */
+}
+
+.contact-info p:last-child {
+    margin-bottom: 0; /* Supprimer la marge du dernier paragraphe pour éviter un espace vide */
+}
+
+
+/* Style pour la liste numérotée */
+ol {
+    list-style-type: decimal; /* Utilisation de chiffres pour numéroter la liste */
+ /* Marge à gauche pour l'espacement */
+}
+
+ol li {
+    color: #c8102e; /* Rouge de Liverpool pour le texte */
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+ol li a {
+    text-decoration: none;
+    color: #c8102e; /* Rouge de Liverpool pour les liens */
+}
+
+ol li a:hover {
+    text-decoration: underline;
+}
